@@ -1,0 +1,5 @@
+# Ignoramos la carpeta node_modules
+node_modules/
+
+# Ignoramos la carpeta dist
+dist/
