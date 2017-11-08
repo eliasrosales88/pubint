@@ -1,0 +1,87 @@
+.content-article{
+    margin: auto;
+    width: 95%;
+    background: $color-background-article;
+    float: none;
+    display: block;
+    height: 100%;
+
+    .photo-detail{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background: #009688;
+        .span-photo-detail{
+            width: 100%;
+            height: 61px;
+            background: fade-out($color-article-info-text, 0.46);
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .publish-date-detail{
+        color: $color-header-text;
+        padding: 4px;
+    }
+
+    .title-photo-detail{
+        color: $color-header-text;
+        padding: 4px;
+        font-size: $font-size-large;
+    }
+
+    .article-info-detail{
+        width: 100%;
+        background: $color-background-article;
+        color: $color-article-info-text;
+    }
+    
+    .article-detail-content{
+        text-align: justify;
+        margin-left: 15px;
+        margin-right: 15px;
+        background: $color-background-article;
+        color: $color-article-info-text;
+        padding-bottom: 10px;
+    }
+
+    .article-social-heart-detail, .article-social-comment-detail{
+        color: fade-out($color-article-info-text, 0.46);
+        display: inline-block;
+        bottom: 0;
+        width: 50%;
+        float: left;
+        text-align: center;
+        background: $color-background-article;
+        &:hover{
+            color: fade-in($color-article-info-text, 1);
+        }
+    }
+
+    .article-social-comment-detail{
+        width: 50%;
+        float: right;
+    }
+
+    .user-detail {
+        margin-top: 10px;
+        .user-image-detail{
+            margin: auto;
+            width: 50%;                
+            display: block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            background: fade-out($color-article-info-text, 0.46);
+        }
+    }
+
+    .user-name-detail{
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
