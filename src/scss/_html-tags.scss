@@ -21,30 +21,11 @@ body{
 
 
 nav{
-    padding-top: 50px;
+    padding-top: 35px;
     text-decoration: none;
     height: 30px;
-    ul{
-        li{
-            width: 33.33%;
-            display: inline-block;
-            text-align: center;
-            height: 30px;
-            a{
-                text-decoration: none;
-                color: $color-header-text;
-                
-                &:hover{
-                    text-decoration: none !important;
-                    border-bottom: 2px solid $color-header-text !important;
-                }
-                &:active{
-                    text-decoration: none !important;
-                    border-bottom: 4px solid $color-header-text !important;
-                }
-            }
-        }
-    }
+    position: relative;
+    
 }
 
 hr{
