@@ -1,40 +1,45 @@
 .web-header{
     background: $color-header;
     color: $color-header-text;
-    height:  183px;
+    height: 60px;
+    padding: 5px;
+    padding-top: 0;
     max-height: 183px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.title-controls{
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
 
-.offset-menu{
-    
-    width: 15%;
-    display: inline-block;
+
+
+
+.title-controls{
 }
 
 .title{
     text-align: center;
     font-weight: bold;
-    width: 70%;
     display: inline-block;
+    float: left;
 }
 
-.settings{
+
+.settings, .settings-search{
     text-align: right;
-    width: 15%;
     display: inline-block;
+    float: right;
+    padding: 16px 16px;
 }
+
+.settings-search{
+    float: none;
+}
+
+
 
 .search-bar{
-    text-align: center;
-    height: 50px;
+    display: inline-block;
+    height: 40px;
+    width: 50%;
 }
 
 
@@ -62,25 +67,26 @@ ul {
 }
 
 li {
-    width: 33%;
     float: left;
     text-align: center;
 }
 
-li a, .dropbtn {
+li a, .dropbtn, .title{
     display: inline-block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 24px 16px;
     text-decoration: none;
-    width: 100%;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn{
     background-color: $color-header-hover;
     border-bottom: 2px solid $color-header-text !important;
 }
 
+.settings:hover {
+    background-color: $color-header-hover;
+
+}
 li.dropdown {
     display: inline-block;
     
@@ -108,5 +114,52 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.settings{
+    @include if-tablet-landscape{
+        display: none;
+    }
+}
+
+ul li, .dropdown a, .settings-search{
+    @include if-mobile-portrait{
+        display: none;
+    }
+
+    @include if-mobile-landscape{
+        display: none;
+    }
+
+    @include if-tablet-landscape{
+        display: inline-block;
+        }
+}
+
+.dropdown-content a{
+    @include if-tablet-landscape{
+        display: block;
+        }
+
+}
+
+.search-bar{
+    @include if-mobile-portrait{
+        width: 65%;
+    }
+
+    @include if-mobile-landscape{
+        width: 80%;
+    }
+    @include if-tablet-landscape{
+        width:60%;
+        }
+
+}
+
+.settings-search{
+    @include if-tablet-landscape{
+        float: right;
+        }
 }
 

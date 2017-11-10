@@ -9,9 +9,18 @@
     color: $color-header-text;
     background: $color-header;
     border-radius: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 25px;
-    right: 10px;
+    right: 12px;
     float: none;
     clear: both;
+    z-index: 1;
+    box-shadow: 0 0 10px 1px $color-background-main-site;
 }
+
+.up:hover{
+    box-shadow: 0 0 20px 2px $color-background-main-site;
+    transition: 0.5s;
+    
+}
+

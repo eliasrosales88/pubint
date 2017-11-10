@@ -14,14 +14,35 @@ body{
 
     input[type="search"] {
         height: 48px;
-        width: 70%;
-        position: relative;
+        width: 80%;
+        margin-top: 10px;
+        background: #33c8db;
+        border: 0;
+        color:white;
+        font-size: $font-size-base;
+        float: right;
+    }
+    
+    input[type="search"]:focus{
+        outline: none;
+        width: 100%;
+        transition: 0.5s;
+        border-bottom: 1px solid white;
+    }
+
+    input[type="search"]:hover{
+        outline: none;
+        width: 100%;
+        transition: 0.5s;
+    }
+    
+    input[type="search"]:not(:hover){
+    transition: 0.5s;
+        width: 80%;
     }
 
 
-
 nav{
-    padding-top: 35px;
     text-decoration: none;
     height: 30px;
     position: relative;

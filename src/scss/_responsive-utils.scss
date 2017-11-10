@@ -24,7 +24,7 @@
 
 @mixin if-tablet-portrait{
     @media (min-width: #{$tablet-portrait-width}){
-        @content;    
+    @content;    
     }
 }
 
@@ -38,5 +38,6 @@
 @mixin if-desktop{
     @include if-tablet-landscape(){
         @content
-    }
+        }
 }
+
