@@ -1,11 +1,13 @@
 .content-article{
     margin: auto;
-    width: 95%;
+    width: 80%;
     background: $color-background-article;
     float: none;
     display: block;
     height: 100%;
     margin-top: 20px;
+    max-width: 1024px;
+    box-shadow: 0 0 10px 1px $color-background-main-site;
 
     .photo-detail{
         display: block;
@@ -46,6 +48,10 @@
         background: $color-background-article;
         color: $color-article-info-text;
         padding-bottom: 10px;
+        line-height: 25px;
+        p{
+            padding: 15px;
+        }
     }
 
     .article-social-heart-detail, .article-social-comment-detail{
@@ -84,5 +90,33 @@
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+}
+.form{
+    padding: 15px;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.button{
+    width: 60px;
+    max-width: 60px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 48%;
+    background: $color-header;
+    border: 0;
+    color: $color-header-text;
+    padding: 10px;
+    &:hover{
+        background: $color-header-hover;
+    }
+    &:active{
+        background: $color-header;
+        
     }
 }
