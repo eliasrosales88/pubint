@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server --static ./dist --port 3100 db.json"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     "bootstrap": "^4.0.0-beta.2",
     "bootstrap-material-design": "^4.0.0-beta.4",
     "eslint": "^4.10.0",
+    "jquery": "^3.2.1",
     "json-server": "^0.12.1"
   }
 }

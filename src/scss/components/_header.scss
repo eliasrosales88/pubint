@@ -63,7 +63,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: $color-header;
 }
 
 li {
@@ -71,14 +70,14 @@ li {
     text-align: center;
 }
 
-li a, .dropbtn, .title{
+li a, .title{
     display: inline-block;
     color: white;
     padding: 24px 16px;
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn{
+li a:hover{
     background-color: $color-header-hover;
     border-bottom: 2px solid $color-header-text !important;
 }
@@ -95,7 +94,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    bottom: -130px;
+    bottom: -155px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -117,6 +116,7 @@ li.dropdown {
 }
 
 .settings{
+    cursor: pointer;    
     @include if-tablet-landscape{
         display: none;
     }
@@ -135,6 +135,8 @@ ul li, .dropdown a, .settings-search{
         display: inline-block;
         }
 }
+
+
 
 .dropdown-content a{
     @include if-tablet-landscape{
@@ -161,5 +163,61 @@ ul li, .dropdown a, .settings-search{
     @include if-tablet-landscape{
         float: right;
         }
+}
+
+
+
+
+
+//////////////MENU MOBILE/////////////
+
+.dropdown-mobile:hover .dropdown-content-mobile {
+    display: block;
+}
+
+.dropdown-content-mobile {
+    display: none;
+    position: absolute;
+    right:10px;
+    bottom: -240px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999999;
+}
+
+.settings, .dropdown-mobile a{
+    @include if-mobile-portrait{
+        display: block;
+    }
+
+    @include if-mobile-landscape{
+        display: block;
+    }
+
+    @include if-tablet-landscape{
+        display: none;
+        }
+}
+.dropdown-mobile{
+    @include if-tablet-landscape{
+        display: none;
+    }
+}
+
+.dropbtn-mobile{
+    @include if-tablet-landscape{
+        display: none;
+    }
+}
+
+
+
+.dropdown-content-mobile a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 

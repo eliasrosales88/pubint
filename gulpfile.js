@@ -20,7 +20,7 @@ var responsive = require("gulp-responsive");
 gulp.task("default", ["img", "html", "sass", "js"], function(){
 
     // iniciamos el servidor de desarrollo
-    browserSync.init({ server: "dist/" });
+    browserSync.init({ proxy: "http://127.0.0.1:3100/" });
 
     // observa cambios en los archivos SASS, y entonces ejectua la tarea 'sass'
     gulp.watch(["src/scss/*.scss","src/scss/**/*.scss"],["sass"]);
