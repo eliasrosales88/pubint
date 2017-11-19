@@ -1,6 +1,6 @@
 <div class="content-article">
         <div class="photo-detail">
-            AQUI VA UNA FOTO
+            <img src="img/container-1024px.jpg" alt="container">
             <div class="span-photo-detail">
                 <div class="publish-date-detail">
                     November 6, 2017
@@ -13,7 +13,7 @@
             <div class="article-info-detail">
                 <div class="user-detail">
                     <div class="user-image-detail">
-                        <picture></picture>
+                        <img src="./img/elias-350px.jpg" alt="elias">
                     </div>
                     <div class="user-name-detail">
                         Nombre de usuario
@@ -44,25 +44,46 @@
                     COMENTARIOS
                     <div class="comment-body">
                         <div class="form">
-                            <form action="submit" class="form">
-                                <label for="name">Nombre: </label>
-                                <input type="text" name="name">
-
-                                <label for="apellidos">Apellidos: </label>
-                                <input type="text" name="apellidos">
-
-                                <label for="mail">Correo: </label>
-                                <input type="mail" name="mail">
-
-                                <label for="comentario">Comentario: </label>
-                                <input type="text" name="comentario" maxlength="120">
-
-                                <input type="button" value="Enviar" class="button">
+                            <!-- AQUI VA EL FORMULARIO DE COMENTARIOS  comment-form.html-->
+                            <form novalidate action="submit" class="comment-form">
+                                <div class="ui-status error">Se ha producido un error</div>
+                                <div class="ui-status loading">Guardando comentario...</div>
+                                <div class="ui-status ideal">
+                                    <label for="name">Nombre: </label>
+                                    <input type="text" name="name"required>
+                            
+                                    <label for="apellidos">Apellidos: </label>
+                                    <input type="text" name="apellidos"required>
+                            
+                                    <label for="mail">Correo: </label>
+                                    <input type="mail" name="mail"required>
+                            
+                                    <label for="comentario">Comentario: </label>
+                                    <input type="text" name="comentario" maxlength="120" required>
+                            
+                                    <input type="button" value="Enviar" class="button">
+                                </div>  
                             </form>
                         </div>
-                        <div class="title-comment">
-                        
-                        </div>
+                        <!--AQUI SE RENDERIZAN LOS COMENTARIOS-->
+                        <section class="comment-list loading">
+                            
+                                <div class="ui-status empty">
+                                    No hay ningun comentario que mostrar
+                                </div>
+                            
+                                <div class="ui-status error">
+                                    Se ha producido un error al cargar los comentarios
+                                </div>
+                            
+                                <div class="ui-status loading">
+                                    Cargando...
+                                </div>
+                            
+                                <div class="ui-status ideal">
+                                            
+                                </div>
+                            </section>
                 </div>
                 </div>
     </div>

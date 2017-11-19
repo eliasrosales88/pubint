@@ -7,7 +7,7 @@ export class ArticlesService {
         this.url = url;
     }
 
-    // Obtener un listado de canciones
+    // Obtener un listado de articulos
     list(successCallback, errorCallback){
         $.ajax({
             url:this.url,

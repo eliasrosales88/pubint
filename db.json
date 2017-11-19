@@ -117,5 +117,21 @@
         "imagen":"img/container-767px.jpg",
         "id": 16
       }
+    ],
+    "comments":[
+      {
+        "id": 1,
+        "name": "Valeria",
+        "lastnames": "De Freitas Serrao",
+        "email": "valefreiser@hotmail.com",
+        "comment": "Me encanta este articulo"
+      },
+      {
+        "id": 2,
+        "name": "Elias",
+        "lastnames": "Rosales",
+        "email": "elias@hotmail.com",
+        "comment": "Me encanta este articulo 2"
+      }
     ]
   }
