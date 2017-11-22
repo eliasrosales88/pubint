@@ -16,4 +16,13 @@ export class ArticlesService {
             
         });
     }
+
+    delete(articleId, successCallback, errorCallback){
+        $.ajax({
+            url: `${this.url}${articleId}`,
+            method: 'delete',
+            success: successCallback,
+            error: errorCallback
+        }) 
+     }
 }

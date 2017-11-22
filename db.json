@@ -1,137 +1,127 @@
 {
-    "articles": [
-      {
-        "id": 1,
-        "title": "Valeria te amo",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "description": "Muse",
-        "imagen":""
-      },
-      {
-      
-        "id": 2,
-        "title": "Ultraviolet",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "description": "U2",
-        "content":"Este es el contenido del articulo",
-        "imagen":"img/container-767px.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Encore",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "description": "Red Hot Chili Peppers",
-        "content":"Este es el contenido del articulo",
-        "imagen":"img/container-767px.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Shadow of the day",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "description": "Linkin Park",
-        "content":"Este es el contenido del articulo",
-        "imagen":"img/container-767px.jpg"
-      },
-      {
-        "id": 5,
-        "title": "You're in love with a psycho",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "description": "Kasabian",
-        "content":"Este es el contenido del articulo",
-        "imagen":"img/container-767px.jpg"
-      },
-      {
-        "description": "Placebo",
-        "content":"Este es el contenido del articulo",
-        "title": "Meds",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 6
-      },
-      {
-        "description": "The Strokes",
-        "content":"Este es el contenido del articulo",
-        "title": "Reptilia",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 7
-      },
-      {
-        "description": "Kings of Leon",
-        "content":"Este es el contenido del articulo",
-        "title": "Muchacho",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 8
-      },
-      {
-        "description": "Coldplay",
-        "content":"Este es el contenido del articulo",
-        "title": "Yellow",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 9
-      },
-      {
-        "description": "Blink 182",
-        "content":"Este es el contenido del articulo",
-        "title": "All the small things",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 10
-      },
-      {
-        "description": "Aerosmith",
-        "content":"Este es el contenido del articulo",
-        "title": "Pink",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 11
-      },
-      {
-        "description": "Red Hot Chilli Peppers",
-        "content":"Este es el contenido del articulo",
-        "title": "ACDF",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 15
-      },
-      {
-        "description": "Chino y Nacho",
-        "content":"Este es el contenido del articulo",
-        "title": "Mi nina bonita",
-        "user": "Elias Rosales",
-        "date": "Noviembre 13, 2017",
-        "imagen":"img/container-767px.jpg",
-        "id": 16
-      }
-    ],
-    "comments":[
-      {
-        "id": 1,
-        "name": "Valeria",
-        "lastnames": "De Freitas Serrao",
-        "email": "valefreiser@hotmail.com",
-        "comment": "Me encanta este articulo"
-      },
-      {
-        "id": 2,
-        "name": "Elias",
-        "lastnames": "Rosales",
-        "email": "elias@hotmail.com",
-        "comment": "Me encanta este articulo 2"
-      }
-    ]
-  }
+  "articles": [
+    {
+      "id": 1,
+      "title": "Valeria te amo",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "description": "Muse",
+      "imagen": ""
+    },
+    {
+      "id": 2,
+      "title": "Ultraviolet",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "description": "U2",
+      "content": "Este es el contenido del articulo",
+      "imagen": "img/container-767px.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Encore",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "description": "Red Hot Chili Peppers",
+      "content": "Este es el contenido del articulo",
+      "imagen": "img/container-767px.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Shadow of the day",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "description": "Linkin Park",
+      "content": "Este es el contenido del articulo",
+      "imagen": "img/container-767px.jpg"
+    },
+    {
+      "id": 5,
+      "title": "You're in love with a psycho",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "description": "Kasabian",
+      "content": "Este es el contenido del articulo",
+      "imagen": "img/container-767px.jpg"
+    },
+    {
+      "description": "Placebo",
+      "content": "Este es el contenido del articulo",
+      "title": "Meds",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 6
+    },
+    {
+      "description": "The Strokes",
+      "content": "Este es el contenido del articulo",
+      "title": "Reptilia",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 7
+    },
+    {
+      "description": "Kings of Leon",
+      "content": "Este es el contenido del articulo",
+      "title": "Muchacho",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 8
+    },
+    {
+      "description": "Coldplay",
+      "content": "Este es el contenido del articulo",
+      "title": "Yellow",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 9
+    },
+    {
+      "description": "Blink 182",
+      "content": "Este es el contenido del articulo",
+      "title": "All the small things",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 10
+    },
+    {
+      "description": "Aerosmith",
+      "content": "Este es el contenido del articulo",
+      "title": "Pink",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 11
+    },
+    {
+      "description": "Red Hot Chilli Peppers",
+      "content": "Este es el contenido del articulo",
+      "title": "ACDF",
+      "user": "Elias Rosales",
+      "date": "Noviembre 13, 2017",
+      "imagen": "img/container-767px.jpg",
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Valeria",
+      "lastnames": "De Freitas Serrao",
+      "email": "valefreiser@hotmail.com",
+      "comment": "Me encanta este articulo"
+    },
+    {
+      "id": 2,
+      "name": "Elias",
+      "lastnames": "Rosales",
+      "email": "elias@hotmail.com",
+      "comment": "Me encanta este articulo 2"
+    }
+  ]
+}

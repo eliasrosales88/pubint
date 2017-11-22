@@ -45,23 +45,23 @@
                     <div class="comment-body">
                         <div class="form">
                             <!-- AQUI VA EL FORMULARIO DE COMENTARIOS  comment-form.html-->
-                            <form novalidate action="submit" class="comment-form">
+                            <form novalidate class="comment-form ideal">
                                 <div class="ui-status error">Se ha producido un error</div>
                                 <div class="ui-status loading">Guardando comentario...</div>
                                 <div class="ui-status ideal">
                                     <label for="name">Nombre: </label>
-                                    <input type="text" name="name"required>
+                                    <input type="text" name="name" id="name" required>
                             
                                     <label for="apellidos">Apellidos: </label>
-                                    <input type="text" name="apellidos"required>
+                                    <input type="text" name="apellidos" id="apellidos" required>
                             
                                     <label for="mail">Correo: </label>
-                                    <input type="mail" name="mail"required>
+                                    <input type="mail" name="mail" id="mail" required>
                             
                                     <label for="comentario">Comentario: </label>
-                                    <input type="text" name="comentario" maxlength="120" required>
+                                    <input type="text" name="comentario" id="comentario" maxlength="120" required>
                             
-                                    <input type="button" value="Enviar" class="button">
+                                   <button class="button">Comentar</button>
                                 </div>  
                             </form>
                         </div>
